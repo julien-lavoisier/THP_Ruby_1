@@ -4,6 +4,6 @@ n = gets.chomp.to_i
 puts "Voici la pyramide"
 i=1
 n.times do
-    puts "* " * i
+    puts "# " * i
     i = i + 1
     end
