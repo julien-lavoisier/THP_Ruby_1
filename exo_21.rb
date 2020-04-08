@@ -5,7 +5,7 @@ puts "Voici la pyramide"
 i=1
 j=n
 n.times do
-    puts " " # j + "#" * i
+    puts " " * j + "#" * i
     i = i + 1
     j = j - 1
 end
