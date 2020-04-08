@@ -5,7 +5,7 @@ puts "Voici la pyramide"
 i=1
 j=n
 while i <= n
-    puts " " * j + "*" * i
+    puts " " * j + "#" * i
     i = i + 1
     j = j - 1
 end
